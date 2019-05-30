@@ -1,0 +1,155 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B972C4B1-1456-4335-A1E3-023D76550982}"
+	ProjectSection(SolutionItems) = preProject
+		Engine.cs = Engine.cs
+		Entity.cs = Entity.cs
+		Scene.cs = Scene.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Colliders", "Colliders", "{8DF20134-FB8E-4804-A7A3-C722D3E698C8}"
+	ProjectSection(SolutionItems) = preProject
+		Circle.cs = Circle.cs
+		Collide.cs = Collide.cs
+		Collider.cs = Collider.cs
+		ColliderList.cs = ColliderList.cs
+		Grid.cs = Grid.cs
+		Hitbox.cs = Hitbox.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{759AB088-E9B6-4A24-B3E1-3BA4A0F7983A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Monocle\Components\CollidableComponent.cs = ..\..\..\Desktop\Monocle\Components\CollidableComponent.cs
+		..\..\..\Desktop\Monocle\Components\Component.cs = ..\..\..\Desktop\Monocle\Components\Component.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graphics", "Graphics", "{CB6F181A-F828-4E8D-A025-C3929E93992E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Monocle\Graphics\Atlas.cs = ..\..\..\Desktop\Monocle\Graphics\Atlas.cs
+		..\..\..\Desktop\Monocle\Graphics\MTexture.cs = ..\..\..\Desktop\Monocle\Graphics\MTexture.cs
+		..\..\..\Desktop\Monocle\Graphics\SpriteBank.cs = ..\..\..\Desktop\Monocle\Graphics\SpriteBank.cs
+		..\..\..\Desktop\Monocle\Graphics\SpriteData.cs = ..\..\..\Desktop\Monocle\Graphics\SpriteData.cs
+		..\..\..\Desktop\Monocle\Graphics\Tileset.cs = ..\..\..\Desktop\Monocle\Graphics\Tileset.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Input", "Input", "{FE02377B-BAB6-469E-92D5-05E03B595A12}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Monocle\Input\MInput.cs = ..\..\..\Desktop\Monocle\Input\MInput.cs
+		..\..\..\Desktop\Monocle\Input\VirtualAxis.cs = ..\..\..\Desktop\Monocle\Input\VirtualAxis.cs
+		..\..\..\Desktop\Monocle\Input\VirtualButton.cs = ..\..\..\Desktop\Monocle\Input\VirtualButton.cs
+		..\..\..\Desktop\Monocle\Input\VirtualInput.cs = ..\..\..\Desktop\Monocle\Input\VirtualInput.cs
+		..\..\..\Desktop\Monocle\Input\VirtualIntegerAxis.cs = ..\..\..\Desktop\Monocle\Input\VirtualIntegerAxis.cs
+		..\..\..\Desktop\Monocle\Input\VirtualJoystick.cs = ..\..\..\Desktop\Monocle\Input\VirtualJoystick.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InternalUtilities", "InternalUtilities", "{8C7A5766-8D89-4A57-88D9-FA4311D806A2}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Monocle\InternalUtilities\ComponentList.cs = ..\..\..\Desktop\Monocle\InternalUtilities\ComponentList.cs
+		..\..\..\Desktop\Monocle\InternalUtilities\EntityList.cs = ..\..\..\Desktop\Monocle\InternalUtilities\EntityList.cs
+		..\..\..\Desktop\Monocle\InternalUtilities\RendererList.cs = ..\..\..\Desktop\Monocle\InternalUtilities\RendererList.cs
+		..\..\..\Desktop\Monocle\InternalUtilities\TagLists.cs = ..\..\..\Desktop\Monocle\InternalUtilities\TagLists.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Particles", "Particles", "{0463C3C1-C077-4F4C-9609-61DAFD250F50}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Monocle\Particles\Particle.cs = ..\..\..\Desktop\Monocle\Particles\Particle.cs
+		..\..\..\Desktop\Monocle\Particles\ParticleSystem.cs = ..\..\..\Desktop\Monocle\Particles\ParticleSystem.cs
+		..\..\..\Desktop\Monocle\Particles\ParticleType.cs = ..\..\..\Desktop\Monocle\Particles\ParticleType.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{6B51341A-FA47-4BE1-8780-3E652DFEB45B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Monocle\Properties\AssemblyInfo.cs = ..\..\..\Desktop\Monocle\Properties\AssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{D9898665-9629-4D68-A0D2-D67E3D978D64}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Monocle\Util\BitTag.cs = ..\..\..\Desktop\Monocle\Util\BitTag.cs
+		..\..\..\Desktop\Monocle\Util\Cache.cs = ..\..\..\Desktop\Monocle\Util\Cache.cs
+		..\..\..\Desktop\Monocle\Util\Calc.cs = ..\..\..\Desktop\Monocle\Util\Calc.cs
+		..\..\..\Desktop\Monocle\Util\Camera.cs = ..\..\..\Desktop\Monocle\Util\Camera.cs
+		..\..\..\Desktop\Monocle\Util\CheatListener.cs = ..\..\..\Desktop\Monocle\Util\CheatListener.cs
+		..\..\..\Desktop\Monocle\Util\ChoiceSet.cs = ..\..\..\Desktop\Monocle\Util\ChoiceSet.cs
+		..\..\..\Desktop\Monocle\Util\Chooser.cs = ..\..\..\Desktop\Monocle\Util\Chooser.cs
+		..\..\..\Desktop\Monocle\Util\Commands.cs = ..\..\..\Desktop\Monocle\Util\Commands.cs
+		..\..\..\Desktop\Monocle\Util\Draw.cs = ..\..\..\Desktop\Monocle\Util\Draw.cs
+		..\..\..\Desktop\Monocle\Util\Ease.cs = ..\..\..\Desktop\Monocle\Util\Ease.cs
+		..\..\..\Desktop\Monocle\Util\ErrorLog.cs = ..\..\..\Desktop\Monocle\Util\ErrorLog.cs
+		..\..\..\Desktop\Monocle\Util\MethodHandle.cs = ..\..\..\Desktop\Monocle\Util\MethodHandle.cs
+		..\..\..\Desktop\Monocle\Util\PixelFont.cs = ..\..\..\Desktop\Monocle\Util\PixelFont.cs
+		..\..\..\Desktop\Monocle\Util\Pnt.cs = ..\..\..\Desktop\Monocle\Util\Pnt.cs
+		..\..\..\Desktop\Monocle\Util\Pooler.cs = ..\..\..\Desktop\Monocle\Util\Pooler.cs
+		..\..\..\Desktop\Monocle\Util\SaveLoad.cs = ..\..\..\Desktop\Monocle\Util\SaveLoad.cs
+		..\..\..\Desktop\Monocle\Util\SimpleCurve.cs = ..\..\..\Desktop\Monocle\Util\SimpleCurve.cs
+		..\..\..\Desktop\Monocle\Util\SpecEntity.cs = ..\..\..\Desktop\Monocle\Util\SpecEntity.cs
+		..\..\..\Desktop\Monocle\Util\Tiler.cs = ..\..\..\Desktop\Monocle\Util\Tiler.cs
+		..\..\..\Desktop\Monocle\Util\Tracker.cs = ..\..\..\Desktop\Monocle\Util\Tracker.cs
+		..\..\..\Desktop\Monocle\Util\VirtualMap.cs = ..\..\..\Desktop\Monocle\Util\VirtualMap.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graphics", "Graphics", "{6174882C-762D-4884-9F79-886A4488D75B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Monocle\Components\Graphics\GraphicsComponent.cs = ..\..\..\Desktop\Monocle\Components\Graphics\GraphicsComponent.cs
+		..\..\..\Desktop\Monocle\Components\Graphics\Image.cs = ..\..\..\Desktop\Monocle\Components\Graphics\Image.cs
+		..\..\..\Desktop\Monocle\Components\Graphics\ParticleEmitter.cs = ..\..\..\Desktop\Monocle\Components\Graphics\ParticleEmitter.cs
+		..\..\..\Desktop\Monocle\Components\Graphics\PixelText.cs = ..\..\..\Desktop\Monocle\Components\Graphics\PixelText.cs
+		..\..\..\Desktop\Monocle\Components\Graphics\Sprite.cs = ..\..\..\Desktop\Monocle\Components\Graphics\Sprite.cs
+		..\..\..\Desktop\Monocle\Components\Graphics\Spritesheet.cs = ..\..\..\Desktop\Monocle\Components\Graphics\Spritesheet.cs
+		..\..\..\Desktop\Monocle\Components\Graphics\TileGrid.cs = ..\..\..\Desktop\Monocle\Components\Graphics\TileGrid.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{0D683AF8-0724-47B7-9866-EEA7222C5895}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Monocle\Components\Logic\Alarm.cs = ..\..\..\Desktop\Monocle\Components\Logic\Alarm.cs
+		..\..\..\Desktop\Monocle\Components\Logic\Coroutine.cs = ..\..\..\Desktop\Monocle\Components\Logic\Coroutine.cs
+		..\..\..\Desktop\Monocle\Components\Logic\CoroutineHolder.cs = ..\..\..\Desktop\Monocle\Components\Logic\CoroutineHolder.cs
+		..\..\..\Desktop\Monocle\Components\Logic\CounterSet.cs = ..\..\..\Desktop\Monocle\Components\Logic\CounterSet.cs
+		..\..\..\Desktop\Monocle\Components\Logic\Shaker.cs = ..\..\..\Desktop\Monocle\Components\Logic\Shaker.cs
+		..\..\..\Desktop\Monocle\Components\Logic\ShakerList.cs = ..\..\..\Desktop\Monocle\Components\Logic\ShakerList.cs
+		..\..\..\Desktop\Monocle\Components\Logic\SineWave.cs = ..\..\..\Desktop\Monocle\Components\Logic\SineWave.cs
+		..\..\..\Desktop\Monocle\Components\Logic\StateMachine.cs = ..\..\..\Desktop\Monocle\Components\Logic\StateMachine.cs
+		..\..\..\Desktop\Monocle\Components\Logic\Tween.cs = ..\..\..\Desktop\Monocle\Components\Logic\Tween.cs
+		..\..\..\Desktop\Monocle\Components\Logic\Wiggler.cs = ..\..\..\Desktop\Monocle\Components\Logic\Wiggler.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Text", "Text", "{EA430724-32A9-4743-A3D3-E4E9200B0360}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Monocle\Components\Graphics\Text\NumberText.cs = ..\..\..\Desktop\Monocle\Components\Graphics\Text\NumberText.cs
+		..\..\..\Desktop\Monocle\Components\Graphics\Text\OutlineText.cs = ..\..\..\Desktop\Monocle\Components\Graphics\Text\OutlineText.cs
+		..\..\..\Desktop\Monocle\Components\Graphics\Text\Text.cs = ..\..\..\Desktop\Monocle\Components\Graphics\Text\Text.cs
+		..\..\..\Desktop\Monocle\Components\Graphics\Text\TimerText.cs = ..\..\..\Desktop\Monocle\Components\Graphics\Text\TimerText.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Renderers", "Renderers", "{8FA88FB2-CC36-45F5-B8A8-9E0280EACA0D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Monocle\Renderers\EverythingRenderer.cs = ..\..\..\Desktop\Monocle\Renderers\EverythingRenderer.cs
+		..\..\..\Desktop\Monocle\Renderers\Renderer.cs = ..\..\..\Desktop\Monocle\Renderers\Renderer.cs
+		..\..\..\Desktop\Monocle\Renderers\SingleTagRenderer.cs = ..\..\..\Desktop\Monocle\Renderers\SingleTagRenderer.cs
+		..\..\..\Desktop\Monocle\Renderers\TagExcludeRenderer.cs = ..\..\..\Desktop\Monocle\Renderers\TagExcludeRenderer.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DF20134-FB8E-4804-A7A3-C722D3E698C8} = {B972C4B1-1456-4335-A1E3-023D76550982}
+		{759AB088-E9B6-4A24-B3E1-3BA4A0F7983A} = {B972C4B1-1456-4335-A1E3-023D76550982}
+		{CB6F181A-F828-4E8D-A025-C3929E93992E} = {B972C4B1-1456-4335-A1E3-023D76550982}
+		{FE02377B-BAB6-469E-92D5-05E03B595A12} = {B972C4B1-1456-4335-A1E3-023D76550982}
+		{8C7A5766-8D89-4A57-88D9-FA4311D806A2} = {B972C4B1-1456-4335-A1E3-023D76550982}
+		{0463C3C1-C077-4F4C-9609-61DAFD250F50} = {B972C4B1-1456-4335-A1E3-023D76550982}
+		{6B51341A-FA47-4BE1-8780-3E652DFEB45B} = {B972C4B1-1456-4335-A1E3-023D76550982}
+		{D9898665-9629-4D68-A0D2-D67E3D978D64} = {B972C4B1-1456-4335-A1E3-023D76550982}
+		{6174882C-762D-4884-9F79-886A4488D75B} = {759AB088-E9B6-4A24-B3E1-3BA4A0F7983A}
+		{0D683AF8-0724-47B7-9866-EEA7222C5895} = {759AB088-E9B6-4A24-B3E1-3BA4A0F7983A}
+		{EA430724-32A9-4743-A3D3-E4E9200B0360} = {6174882C-762D-4884-9F79-886A4488D75B}
+		{8FA88FB2-CC36-45F5-B8A8-9E0280EACA0D} = {B972C4B1-1456-4335-A1E3-023D76550982}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B3EF0A3-3C77-43D0-A915-2327EA16167F}
+	EndGlobalSection
+EndGlobal
