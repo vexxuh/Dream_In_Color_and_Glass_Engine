@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Xml;
 
-namespace Glass
+namespace Glass.Graphics
 {
     public class MTexture
     {
@@ -196,7 +196,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, Color.White, 0, -DrawOffset, 1f, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, Color.White, 0, -DrawOffset, 1f, SpriteEffects.None, 0);
         }
 
         public void Draw(Vector2 position, Vector2 origin)
@@ -205,7 +205,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, Color.White, 0, origin - DrawOffset, 1f, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, Color.White, 0, origin - DrawOffset, 1f, SpriteEffects.None, 0);
         }
 
         public void Draw(Vector2 position, Vector2 origin, Color color)
@@ -214,7 +214,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, origin - DrawOffset, 1f, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, origin - DrawOffset, 1f, SpriteEffects.None, 0);
         }
 
         public void Draw(Vector2 position, Vector2 origin, Color color, float scale)
@@ -223,7 +223,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, origin - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, origin - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void Draw(Vector2 position, Vector2 origin, Color color, float scale, float rotation)
@@ -232,7 +232,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, origin - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, origin - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void Draw(Vector2 position, Vector2 origin, Color color, float scale, float rotation, SpriteEffects flip)
@@ -241,7 +241,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, origin - DrawOffset, scale, flip, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, origin - DrawOffset, scale, flip, 0);
         }
 
         public void Draw(Vector2 position, Vector2 origin, Color color, Vector2 scale)
@@ -250,7 +250,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, origin - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, origin - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void Draw(Vector2 position, Vector2 origin, Color color, Vector2 scale, float rotation)
@@ -259,7 +259,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, origin - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, origin - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void Draw(Vector2 position, Vector2 origin, Color color, Vector2 scale, float rotation, SpriteEffects flip)
@@ -268,7 +268,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, origin - DrawOffset, scale, flip, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, origin - DrawOffset, scale, flip, 0);
         }
 
         public void Draw(Vector2 position, Vector2 origin, Color color, Vector2 scale, float rotation, Rectangle clip)
@@ -277,7 +277,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, GetRelativeRect(clip), color, rotation, origin - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, GetRelativeRect(clip), color, rotation, origin - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         #endregion
@@ -290,7 +290,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, Color.White, 0, Center - DrawOffset, 1f, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, Color.White, 0, Center - DrawOffset, 1f, SpriteEffects.None, 0);
         }
 
         public void DrawCentered(Vector2 position, Color color)
@@ -299,7 +299,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, Center - DrawOffset, 1f, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, Center - DrawOffset, 1f, SpriteEffects.None, 0);
         }
 
         public void DrawCentered(Vector2 position, Color color, float scale)
@@ -308,7 +308,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, Center - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, Center - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawCentered(Vector2 position, Color color, float scale, float rotation)
@@ -317,7 +317,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, Center - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, Center - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawCentered(Vector2 position, Color color, float scale, float rotation, SpriteEffects flip)
@@ -326,7 +326,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, Center - DrawOffset, scale, flip, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, Center - DrawOffset, scale, flip, 0);
         }
 
         public void DrawCentered(Vector2 position, Color color, Vector2 scale)
@@ -335,7 +335,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, Center - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, Center - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawCentered(Vector2 position, Color color, Vector2 scale, float rotation)
@@ -344,7 +344,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, Center - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, Center - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawCentered(Vector2 position, Color color, Vector2 scale, float rotation, SpriteEffects flip)
@@ -353,7 +353,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, Center - DrawOffset, scale, flip, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, Center - DrawOffset, scale, flip, 0);
         }
 
         #endregion
@@ -366,7 +366,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, Color.White, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, 1f, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, Color.White, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, 1f, SpriteEffects.None, 0);
         }
 
         public void DrawJustified(Vector2 position, Vector2 justify, Color color)
@@ -375,7 +375,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, 1f, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, 1f, SpriteEffects.None, 0);
         }
 
         public void DrawJustified(Vector2 position, Vector2 justify, Color color, float scale)
@@ -384,7 +384,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawJustified(Vector2 position, Vector2 justify, Color color, float scale, float rotation)
@@ -393,7 +393,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawJustified(Vector2 position, Vector2 justify, Color color, float scale, float rotation, SpriteEffects flip)
@@ -402,7 +402,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, flip, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, flip, 0);
         }
 
         public void DrawJustified(Vector2 position, Vector2 justify, Color color, Vector2 scale)
@@ -411,7 +411,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawJustified(Vector2 position, Vector2 justify, Color color, Vector2 scale, float rotation)
@@ -420,7 +420,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawJustified(Vector2 position, Vector2 justify, Color color, Vector2 scale, float rotation, SpriteEffects flip)
@@ -429,7 +429,7 @@ namespace Glass
             if (Texture.IsDisposed)
                 throw new Exception("Texture2D Is Disposed");
 #endif
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, flip, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, flip, 0);
         }
 
         #endregion
@@ -446,9 +446,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, -DrawOffset, 1f, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, -DrawOffset, 1f, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, Color.White, 0, -DrawOffset, 1f, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, Color.White, 0, -DrawOffset, 1f, SpriteEffects.None, 0);
         }
 
         public void DrawOutline(Vector2 position, Vector2 origin)
@@ -461,9 +461,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, origin - DrawOffset, 1f, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, origin - DrawOffset, 1f, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, Color.White, 0, origin - DrawOffset, 1f, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, Color.White, 0, origin - DrawOffset, 1f, SpriteEffects.None, 0);
         }
 
         public void DrawOutline(Vector2 position, Vector2 origin, Color color)
@@ -476,9 +476,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, origin - DrawOffset, 1f, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, origin - DrawOffset, 1f, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, origin - DrawOffset, 1f, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, origin - DrawOffset, 1f, SpriteEffects.None, 0);
         }
 
         public void DrawOutline(Vector2 position, Vector2 origin, Color color, float scale)
@@ -491,9 +491,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, origin - DrawOffset, scale, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, origin - DrawOffset, scale, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, origin - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, origin - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawOutline(Vector2 position, Vector2 origin, Color color, float scale, float rotation)
@@ -506,9 +506,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, origin - DrawOffset, scale, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, origin - DrawOffset, scale, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, origin - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, origin - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawOutline(Vector2 position, Vector2 origin, Color color, float scale, float rotation, SpriteEffects flip)
@@ -521,9 +521,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, origin - DrawOffset, scale, flip, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, origin - DrawOffset, scale, flip, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, origin - DrawOffset, scale, flip, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, origin - DrawOffset, scale, flip, 0);
         }
 
         public void DrawOutline(Vector2 position, Vector2 origin, Color color, Vector2 scale)
@@ -536,9 +536,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, origin - DrawOffset, scale, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, origin - DrawOffset, scale, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, origin - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, origin - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawOutline(Vector2 position, Vector2 origin, Color color, Vector2 scale, float rotation)
@@ -551,9 +551,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, origin - DrawOffset, scale, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, origin - DrawOffset, scale, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, origin - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, origin - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawOutline(Vector2 position, Vector2 origin, Color color, Vector2 scale, float rotation, SpriteEffects flip)
@@ -566,9 +566,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, origin - DrawOffset, scale, flip, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, origin - DrawOffset, scale, flip, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, origin - DrawOffset, scale, flip, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, origin - DrawOffset, scale, flip, 0);
         }
 
         #endregion
@@ -585,9 +585,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, Center - DrawOffset, 1f, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, Center - DrawOffset, 1f, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, Color.White, 0, Center - DrawOffset, 1f, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, Color.White, 0, Center - DrawOffset, 1f, SpriteEffects.None, 0);
         }
 
         public void DrawOutlineCentered(Vector2 position, Color color)
@@ -600,9 +600,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, Center - DrawOffset, 1f, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, Center - DrawOffset, 1f, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, Center - DrawOffset, 1f, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, Center - DrawOffset, 1f, SpriteEffects.None, 0);
         }
 
         public void DrawOutlineCentered(Vector2 position, Color color, float scale)
@@ -615,9 +615,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, Center - DrawOffset, scale, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, Center - DrawOffset, scale, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, Center - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, Center - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawOutlineCentered(Vector2 position, Color color, float scale, float rotation)
@@ -630,9 +630,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, Center - DrawOffset, scale, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, Center - DrawOffset, scale, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, Center - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, Center - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawOutlineCentered(Vector2 position, Color color, float scale, float rotation, SpriteEffects flip)
@@ -645,9 +645,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, Center - DrawOffset, scale, flip, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, Center - DrawOffset, scale, flip, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, Center - DrawOffset, scale, flip, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, Center - DrawOffset, scale, flip, 0);
         }
 
         public void DrawOutlineCentered(Vector2 position, Color color, Vector2 scale)
@@ -660,9 +660,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, Center - DrawOffset, scale, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, Center - DrawOffset, scale, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, Center - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, Center - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawOutlineCentered(Vector2 position, Color color, Vector2 scale, float rotation)
@@ -675,9 +675,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, Center - DrawOffset, scale, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, Center - DrawOffset, scale, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, Center - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, Center - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawOutlineCentered(Vector2 position, Color color, Vector2 scale, float rotation, SpriteEffects flip)
@@ -690,9 +690,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, Center - DrawOffset, scale, flip, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, Center - DrawOffset, scale, flip, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, Center - DrawOffset, scale, flip, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, Center - DrawOffset, scale, flip, 0);
         }
 
         #endregion
@@ -709,9 +709,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, 1f, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, 1f, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, Color.White, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, 1f, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, Color.White, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, 1f, SpriteEffects.None, 0);
         }
 
         public void DrawOutlineJustified(Vector2 position, Vector2 justify, Color color)
@@ -724,9 +724,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, 1f, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, 1f, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, 1f, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, 1f, SpriteEffects.None, 0);
         }
 
         public void DrawOutlineJustified(Vector2 position, Vector2 justify, Color color, float scale)
@@ -739,9 +739,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawOutlineJustified(Vector2 position, Vector2 justify, Color color, float scale, float rotation)
@@ -754,9 +754,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawOutlineJustified(Vector2 position, Vector2 justify, Color color, float scale, float rotation, SpriteEffects flip)
@@ -769,9 +769,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, flip, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, flip, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, flip, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, flip, 0);
         }
 
         public void DrawOutlineJustified(Vector2 position, Vector2 justify, Color color, Vector2 scale)
@@ -784,9 +784,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, 0, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawOutlineJustified(Vector2 position, Vector2 justify, Color color, Vector2 scale, float rotation)
@@ -799,9 +799,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, SpriteEffects.None, 0);
         }
 
         public void DrawOutlineJustified(Vector2 position, Vector2 justify, Color color, Vector2 scale, float rotation, SpriteEffects flip)
@@ -814,9 +814,9 @@ namespace Glass
             for (var i = -1; i <= 1; i++)
                 for (var j = -1; j <= 1; j++)
                     if (i != 0 || j != 0)
-                        Glass.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, flip, 0);
+                        Glass.Util.Draw.SpriteBatch.Draw(Texture, position + new Vector2(i, j), ClipRect, Color.Black, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, flip, 0);
 
-            Glass.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, flip, 0);
+            Glass.Util.Draw.SpriteBatch.Draw(Texture, position, ClipRect, color, rotation, new Vector2(Width * justify.X, Height * justify.Y) - DrawOffset, scale, flip, 0);
         }
 
         #endregion

@@ -5,8 +5,9 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
+using Glass.Input;
 
-namespace Glass
+namespace Glass.Util
 {
     public class Commands
     {
@@ -788,7 +789,7 @@ namespace Glass
                 if (!string.IsNullOrEmpty(c.Usage))
                 {
                     str.Append(" ");
-                    str.Append(c.Usage);
+                    str.Append((String) c.Usage);
                 }
                 Engine.Commands.Log(str.ToString());
                
@@ -802,7 +803,7 @@ namespace Glass
             {
                 StringBuilder str = new StringBuilder();
                 str.Append("Commands list: ");
-                str.Append(string.Join(", ", Engine.Commands.sorted));
+                str.Append(string.Join(", ", Engine.Commands));
                 Engine.Commands.Log(str.ToString());
                 Engine.Commands.Log("Type 'help command' for more info on that command!");
             }

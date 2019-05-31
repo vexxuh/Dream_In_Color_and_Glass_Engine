@@ -1,7 +1,8 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Glass.Util;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Glass
+namespace Glass.Components.Graphics.Text
 {
     public class Text : GraphicsComponent
     {

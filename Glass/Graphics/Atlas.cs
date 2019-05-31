@@ -8,8 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using Glass;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.Graphics
 {
     public class Atlas
     {

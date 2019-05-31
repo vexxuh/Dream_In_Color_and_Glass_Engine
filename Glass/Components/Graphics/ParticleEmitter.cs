@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Glass.Particles;
+using Glass.Util;
 using Microsoft.Xna.Framework;
 
-namespace Glass
+namespace Glass.Components.Graphics
 {
     public class ParticleEmitter : Component
     {

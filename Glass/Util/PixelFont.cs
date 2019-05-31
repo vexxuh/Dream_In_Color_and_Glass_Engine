@@ -6,8 +6,9 @@ using System.Text;
 using System.Xml;
 using System.Text.RegularExpressions;
 using System.IO;
+using Glass.Graphics;
 
-namespace Glass
+namespace Glass.Util
 {
     public class PixelFontCharacter
     {

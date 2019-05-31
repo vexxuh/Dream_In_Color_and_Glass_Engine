@@ -1,8 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.Components.Graphics.Text
 {
     public class TimerText : GraphicsComponent
     {

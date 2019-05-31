@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Glass
+namespace Glass.Components.Logic
 {
     public class Wiggler : Component
     {

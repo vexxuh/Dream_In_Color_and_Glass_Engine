@@ -1,6 +1,7 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Glass.Graphics;
+using Microsoft.Xna.Framework;
 
-namespace Glass
+namespace Glass.Components.Graphics
 {
     public class Image : GraphicsComponent
     {
@@ -12,10 +13,10 @@ namespace Glass
             Texture = texture;
         }
 
-        internal Image(MTexture texture, bool active)
+        internal Image(object texture, bool active)
             : base(active)
         {
-            Texture = texture;
+            Texture = (MTexture) texture;
         }
 
         public override void Render()

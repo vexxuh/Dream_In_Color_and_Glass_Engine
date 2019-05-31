@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Glass
+namespace Glass.Components.Logic
 {
     public class CounterSet<T> : Component
     {

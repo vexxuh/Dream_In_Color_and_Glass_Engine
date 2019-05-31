@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.Components.Logic
 {
     public class StateMachine : Component
     {

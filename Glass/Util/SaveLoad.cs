@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace Glass
+namespace Glass.Util
 {
     public static class SaveLoad
     {

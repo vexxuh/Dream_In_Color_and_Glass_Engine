@@ -1,8 +1,10 @@
 ﻿using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
+using Glass.Components;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.Colliders
 {
     [Flags]
     public enum PointSectors { Center = 0, Top = 1, Bottom = 2, TopLeft = 9, TopRight = 5, Left = 8, Right = 4, BottomLeft = 10, BottomRight = 6 };
@@ -321,8 +323,8 @@ namespace Glass
 
         public static bool RectToLine(float rX, float rY, float rW, float rH, Vector2 lineFrom, Vector2 lineTo)
         {
-            PointSectors fromSector = Glass.Collide.GetSector(rX, rY, rW, rH, lineFrom);
-            PointSectors toSector = Glass.Collide.GetSector(rX, rY, rW, rH, lineTo);
+            PointSectors fromSector = Glass.Colliders.Collide.GetSector(rX, rY, rW, rH, lineFrom);
+            PointSectors toSector = Glass.Colliders.Collide.GetSector(rX, rY, rW, rH, lineTo);
 
             if (fromSector == PointSectors.Center || toSector == PointSectors.Center)
                 return true;
@@ -340,7 +342,7 @@ namespace Glass
                 {
                     edgeFrom = new Vector2(rX, rY);
                     edgeTo = new Vector2(rX + rW, rY);
-                    if (Glass.Collide.LineCheck(edgeFrom, edgeTo, lineFrom, lineTo))
+                    if (Glass.Colliders.Collide.LineCheck(edgeFrom, edgeTo, lineFrom, lineTo))
                         return true;
                 }
 
@@ -348,7 +350,7 @@ namespace Glass
                 {
                     edgeFrom = new Vector2(rX, rY + rH);
                     edgeTo = new Vector2(rX + rW, rY + rH);
-                    if (Glass.Collide.LineCheck(edgeFrom, edgeTo, lineFrom, lineTo))
+                    if (Glass.Colliders.Collide.LineCheck(edgeFrom, edgeTo, lineFrom, lineTo))
                         return true;
                 }
 
@@ -356,7 +358,7 @@ namespace Glass
                 {
                     edgeFrom = new Vector2(rX, rY);
                     edgeTo = new Vector2(rX, rY + rH);
-                    if (Glass.Collide.LineCheck(edgeFrom, edgeTo, lineFrom, lineTo))
+                    if (Glass.Colliders.Collide.LineCheck(edgeFrom, edgeTo, lineFrom, lineTo))
                         return true;
                 }
 
@@ -364,7 +366,7 @@ namespace Glass
                 {
                     edgeFrom = new Vector2(rX + rW, rY);
                     edgeTo = new Vector2(rX + rW, rY + rH);
-                    if (Glass.Collide.LineCheck(edgeFrom, edgeTo, lineFrom, lineTo))
+                    if (Glass.Colliders.Collide.LineCheck(edgeFrom, edgeTo, lineFrom, lineTo))
                         return true;
                 }
             }

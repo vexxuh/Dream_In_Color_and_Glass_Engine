@@ -1,6 +1,7 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿using Glass.Util;
+using Microsoft.Xna.Framework.Graphics;
 
-namespace Glass
+namespace Glass.Renderers
 {
     public class SingleTagRenderer : Renderer
     {

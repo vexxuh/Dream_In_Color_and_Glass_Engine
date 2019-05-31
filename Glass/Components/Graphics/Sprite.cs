@@ -4,8 +4,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Glass.Graphics;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.Components.Graphics
 {
     public class Sprite : Image
     {
@@ -196,16 +198,6 @@ namespace Glass
             };
         }
 
-        public void Add(string id, string path, float delay, params int[] frames)
-        {
-            animations[id] = new Animation()
-            {
-                Delay = delay,
-                Frames = GetFrames(path, frames),
-                Goto = null
-            };
-        }
-
         public void Add(string id, string path, float delay, string into)
         {
             animations[id] = new Animation()
@@ -216,7 +208,7 @@ namespace Glass
             };
         }
 
-        public void Add(string id, string path, float delay, Chooser<string> into)
+        public void Add(string id, string path, float delay, Chooser<string> @into, int[] frames)
         {
             animations[id] = new Animation()
             {
@@ -236,7 +228,7 @@ namespace Glass
             };
         }
 
-        public void Add(string id, string path, float delay, Chooser<string> into, params int[] frames)
+        public void Add(string id, string path, float delay, Chooser<string> @into, int[] frame, params int[] frames)
         {
             animations[id] = new Animation()
             {

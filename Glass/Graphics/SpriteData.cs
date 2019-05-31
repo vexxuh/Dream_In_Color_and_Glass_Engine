@@ -5,8 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using Glass.Components.Graphics;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.Graphics
 {
     public class SpriteDataSource
     {

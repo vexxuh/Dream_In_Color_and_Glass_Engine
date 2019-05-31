@@ -1,8 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.Input
 {
     /// <summary>
     /// A virtual input that is represented as a Vector2, with both X and Y as values between -1 and 1

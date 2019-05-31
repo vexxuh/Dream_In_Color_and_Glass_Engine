@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Xml;
 
-namespace Glass
+namespace Glass.Util
 {
     public static class Tiler
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 
-namespace Glass
+namespace Glass.Util
 {
     public struct SimpleCurve
     {

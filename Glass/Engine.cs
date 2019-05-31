@@ -4,6 +4,8 @@ using System;
 using System.IO;
 using System.Reflection;
 using System.Runtime;
+using Glass.Input;
+using Glass.Util;
 
 namespace Glass
 {
@@ -182,7 +184,7 @@ namespace Glass
 
             MInput.Initialize();
             Tracker.Initialize();
-            Pooler = new Glass.Pooler();
+            Pooler = new Glass.Util.Pooler();
             Commands = new Commands();
         }
 
@@ -190,7 +192,7 @@ namespace Glass
         {
             base.LoadContent();
 
-            Glass.Draw.Initialize(GraphicsDevice);
+            Glass.Util.Draw.Initialize(GraphicsDevice);
         }
 
         protected override void Update(GameTime gameTime)

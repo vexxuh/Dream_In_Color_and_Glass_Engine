@@ -3,8 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.Components.Graphics
 {
     public class PixelText : Component
     {

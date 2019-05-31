@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Glass
+namespace Glass.Util
 {
     public class CheatListener : Entity
     {

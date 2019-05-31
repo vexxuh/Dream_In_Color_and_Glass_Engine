@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using System;
 
-namespace Glass
+namespace Glass.Util
 {
     public static class Ease
     {

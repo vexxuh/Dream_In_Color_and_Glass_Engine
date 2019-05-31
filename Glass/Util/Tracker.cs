@@ -4,8 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using Glass.Components;
 
-namespace Glass
+namespace Glass.Util
 {
     public class Tracker
     {

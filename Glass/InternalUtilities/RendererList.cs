@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Glass.Renderers;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.InternalUtilities
 {
     public class RendererList
     {

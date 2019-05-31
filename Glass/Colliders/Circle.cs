@@ -1,7 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
 using System;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.Colliders
 {
     public class Circle : Collider
     {
@@ -66,17 +67,17 @@ namespace Glass
 
         public override bool Collide(Vector2 point)
         {
-            return Glass.Collide.CircleToPoint(AbsolutePosition, Radius, point);
+            return Glass.Colliders.Collide.CircleToPoint(AbsolutePosition, Radius, point);
         }
 
         public override bool Collide(Rectangle rect)
         {
-            return Glass.Collide.RectToCircle(rect, AbsolutePosition, Radius);
+            return Glass.Colliders.Collide.RectToCircle(rect, AbsolutePosition, Radius);
         }
 
         public override bool Collide(Vector2 from, Vector2 to)
         {
-            return Glass.Collide.CircleToLine(AbsolutePosition, Radius, from, to);
+            return Glass.Colliders.Collide.CircleToLine(AbsolutePosition, Radius, from, to);
         }
 
         public override bool Collide(Circle circle)

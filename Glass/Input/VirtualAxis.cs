@@ -1,8 +1,9 @@
 ﻿using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
 using System;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.Input
 {
     /// <summary>
     /// A virtual input represented as a float between -1 and 1

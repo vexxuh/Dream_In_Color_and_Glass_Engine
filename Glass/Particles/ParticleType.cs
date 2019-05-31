@@ -1,8 +1,10 @@
 ﻿using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
+using Glass.Graphics;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.Particles
 {
     public class ParticleType
     {

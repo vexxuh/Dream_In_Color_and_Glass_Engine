@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Glass
+namespace Glass.Util
 {
     public class VirtualMap<T>
     {

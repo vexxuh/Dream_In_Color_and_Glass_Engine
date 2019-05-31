@@ -4,8 +4,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Glass.Graphics;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.Components.Graphics
 {
     public class TileGrid : Component
     {

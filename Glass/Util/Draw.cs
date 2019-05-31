@@ -1,8 +1,11 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
+using Glass.Colliders;
+using Glass.Graphics;
+using Glass.Renderers;
 
-namespace Glass
+namespace Glass.Util
 {
     public static class Draw
     {

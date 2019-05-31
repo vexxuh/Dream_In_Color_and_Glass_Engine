@@ -2,8 +2,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.Components.Logic
 {
     public class Tween : Component
     {

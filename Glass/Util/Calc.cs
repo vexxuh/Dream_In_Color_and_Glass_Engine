@@ -11,8 +11,9 @@ using System.Reflection;
 using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
+using Glass.Components.Logic;
 
-namespace Glass
+namespace Glass.Util
 {
     public static class Calc
     {

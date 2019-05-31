@@ -2,8 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Xml;
+using Glass.Components.Graphics;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.Graphics
 {
     public class SpriteBank
     {

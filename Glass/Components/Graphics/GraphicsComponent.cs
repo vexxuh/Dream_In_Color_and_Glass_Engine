@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Glass
+namespace Glass.Components.Graphics
 {
     public abstract class GraphicsComponent : Component
     {

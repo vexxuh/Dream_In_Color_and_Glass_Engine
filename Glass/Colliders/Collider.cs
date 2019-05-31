@@ -1,7 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
 using System;
+using Glass.Components;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.Colliders
 {
     public abstract class Collider
     {

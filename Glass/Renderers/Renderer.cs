@@ -1,5 +1,5 @@
 ﻿
-namespace Glass
+namespace Glass.Renderers
 {
     public abstract class Renderer
     {

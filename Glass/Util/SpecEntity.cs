@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 
-namespace Glass
+namespace Glass.Util
 {
     public class SpecEntity<T> : Entity where T : Scene
     {

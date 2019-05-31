@@ -2,6 +2,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Glass.Colliders;
+using Glass.Components;
+using Glass.InternalUtilities;
+using Glass.Util;
 
 namespace Glass
 {
@@ -461,7 +465,7 @@ namespace Glass
                 {
                     if (Scene != null)
                     {
-                        for (int i = 0; i < Glass.BitTag.TotalTags; i++)
+                        for (int i = 0; i < Glass.Util.BitTag.TotalTags; i++)
                         {
                             int check = 1 << i;
                             bool add = (value & check) != 0;
@@ -577,7 +581,7 @@ namespace Glass
             var exclude = Scene.Tracker.Entities[typeof(Exclude)];
             foreach (var e in Scene.Tracker.Entities[typeof(T)])
                 if (!exclude.Contains(e))
-                    if (Collide.Check(this, e))
+                    if (Collide.Check(this, (Entity) e))
                         return true;
             return false;
         }

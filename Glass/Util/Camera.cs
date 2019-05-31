@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using System;
 
-namespace Glass
+namespace Glass.Util
 {
     public class Camera
     {

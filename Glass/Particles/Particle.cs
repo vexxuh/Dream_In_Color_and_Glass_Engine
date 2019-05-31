@@ -1,8 +1,10 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
+using Glass.Graphics;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.Particles
 {
     public struct Particle
     {

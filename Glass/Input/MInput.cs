@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
 
-namespace Glass
+namespace Glass.Input
 {
     public static class MInput
     {

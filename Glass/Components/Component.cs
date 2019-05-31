@@ -1,5 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using System;
+using Glass.Util;
 
 namespace Glass
 {

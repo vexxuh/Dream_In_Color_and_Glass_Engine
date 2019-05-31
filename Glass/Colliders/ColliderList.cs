@@ -1,8 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
 using System;
 using System.Linq;
+using Glass.Util;
 
-namespace Glass
+namespace Glass.Colliders
 {
     public class ColliderList : Collider
     {

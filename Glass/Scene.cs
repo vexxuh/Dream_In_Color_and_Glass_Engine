@@ -2,6 +2,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Glass.InternalUtilities;
+using Glass.Renderers;
+using Glass.Util;
 
 namespace Glass
 {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Glass
+namespace Glass.Util
 {
     /// <summary>
     /// Utility class for making weighted random choices from a set.

@@ -1,8 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
+using Glass.Graphics;
 
-namespace Glass
+namespace Glass.Components.Graphics
 {
     public class Spritesheet<T> : Image
     {
