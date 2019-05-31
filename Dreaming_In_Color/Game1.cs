@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
 
+
 namespace Dreaming_In_Color
 {
     /// <summary>
@@ -17,6 +18,7 @@ namespace Dreaming_In_Color
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            
         }
 
         /// <summary>
