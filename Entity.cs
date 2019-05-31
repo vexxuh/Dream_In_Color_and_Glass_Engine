@@ -3,7 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Monocle
+namespace Glass
 {
     public class Entity : IEnumerable<Component>, IEnumerable
     {

@@ -5,7 +5,7 @@ using System.IO;
 using System.Reflection;
 using System.Runtime;
 
-namespace Monocle
+namespace Glass
 {
     public class Engine : Game
     {
