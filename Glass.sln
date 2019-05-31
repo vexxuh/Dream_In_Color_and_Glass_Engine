@@ -12,12 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Colliders", "Colliders", "{8DF20134-FB8E-4804-A7A3-C722D3E698C8}"
 	ProjectSection(SolutionItems) = preProject
-		Circle.cs = Circle.cs
-		Collide.cs = Collide.cs
-		Collider.cs = Collider.cs
-		ColliderList.cs = ColliderList.cs
-		Grid.cs = Grid.cs
-		Hitbox.cs = Hitbox.cs
+		..\..\..\Desktop\Monocle\Colliders\Circle.cs = ..\..\..\Desktop\Monocle\Colliders\Circle.cs
+		..\..\..\Desktop\Monocle\Colliders\Collide.cs = ..\..\..\Desktop\Monocle\Colliders\Collide.cs
+		..\..\..\Desktop\Monocle\Colliders\Collider.cs = ..\..\..\Desktop\Monocle\Colliders\Collider.cs
+		..\..\..\Desktop\Monocle\Colliders\ColliderList.cs = ..\..\..\Desktop\Monocle\Colliders\ColliderList.cs
+		..\..\..\Desktop\Monocle\Colliders\Grid.cs = ..\..\..\Desktop\Monocle\Colliders\Grid.cs
+		..\..\..\Desktop\Monocle\Colliders\Hitbox.cs = ..\..\..\Desktop\Monocle\Colliders\Hitbox.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{759AB088-E9B6-4A24-B3E1-3BA4A0F7983A}"
@@ -65,31 +65,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", 
 		..\..\..\Desktop\Monocle\Properties\AssemblyInfo.cs = ..\..\..\Desktop\Monocle\Properties\AssemblyInfo.cs
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{D9898665-9629-4D68-A0D2-D67E3D978D64}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\Monocle\Util\BitTag.cs = ..\..\..\Desktop\Monocle\Util\BitTag.cs
-		..\..\..\Desktop\Monocle\Util\Cache.cs = ..\..\..\Desktop\Monocle\Util\Cache.cs
-		..\..\..\Desktop\Monocle\Util\Calc.cs = ..\..\..\Desktop\Monocle\Util\Calc.cs
-		..\..\..\Desktop\Monocle\Util\Camera.cs = ..\..\..\Desktop\Monocle\Util\Camera.cs
-		..\..\..\Desktop\Monocle\Util\CheatListener.cs = ..\..\..\Desktop\Monocle\Util\CheatListener.cs
-		..\..\..\Desktop\Monocle\Util\ChoiceSet.cs = ..\..\..\Desktop\Monocle\Util\ChoiceSet.cs
-		..\..\..\Desktop\Monocle\Util\Chooser.cs = ..\..\..\Desktop\Monocle\Util\Chooser.cs
-		..\..\..\Desktop\Monocle\Util\Commands.cs = ..\..\..\Desktop\Monocle\Util\Commands.cs
-		..\..\..\Desktop\Monocle\Util\Draw.cs = ..\..\..\Desktop\Monocle\Util\Draw.cs
-		..\..\..\Desktop\Monocle\Util\Ease.cs = ..\..\..\Desktop\Monocle\Util\Ease.cs
-		..\..\..\Desktop\Monocle\Util\ErrorLog.cs = ..\..\..\Desktop\Monocle\Util\ErrorLog.cs
-		..\..\..\Desktop\Monocle\Util\MethodHandle.cs = ..\..\..\Desktop\Monocle\Util\MethodHandle.cs
-		..\..\..\Desktop\Monocle\Util\PixelFont.cs = ..\..\..\Desktop\Monocle\Util\PixelFont.cs
-		..\..\..\Desktop\Monocle\Util\Pnt.cs = ..\..\..\Desktop\Monocle\Util\Pnt.cs
-		..\..\..\Desktop\Monocle\Util\Pooler.cs = ..\..\..\Desktop\Monocle\Util\Pooler.cs
-		..\..\..\Desktop\Monocle\Util\SaveLoad.cs = ..\..\..\Desktop\Monocle\Util\SaveLoad.cs
-		..\..\..\Desktop\Monocle\Util\SimpleCurve.cs = ..\..\..\Desktop\Monocle\Util\SimpleCurve.cs
-		..\..\..\Desktop\Monocle\Util\SpecEntity.cs = ..\..\..\Desktop\Monocle\Util\SpecEntity.cs
-		..\..\..\Desktop\Monocle\Util\Tiler.cs = ..\..\..\Desktop\Monocle\Util\Tiler.cs
-		..\..\..\Desktop\Monocle\Util\Tracker.cs = ..\..\..\Desktop\Monocle\Util\Tracker.cs
-		..\..\..\Desktop\Monocle\Util\VirtualMap.cs = ..\..\..\Desktop\Monocle\Util\VirtualMap.cs
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graphics", "Graphics", "{6174882C-762D-4884-9F79-886A4488D75B}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\Desktop\Monocle\Components\Graphics\GraphicsComponent.cs = ..\..\..\Desktop\Monocle\Components\Graphics\GraphicsComponent.cs
@@ -131,7 +106,62 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Renderers", "Renderers", "{
 		..\..\..\Desktop\Monocle\Renderers\TagExcludeRenderer.cs = ..\..\..\Desktop\Monocle\Renderers\TagExcludeRenderer.cs
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreaming_In_Color", "Dreaming_In_Color\Dreaming_In_Color.csproj", "{DB019BDF-8809-4EB1-892C-11F50477762A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Util", "Util", "{05068504-E93A-4089-BAFE-0F9540C230B3}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Monocle\Util\BitTag.cs = ..\..\..\Desktop\Monocle\Util\BitTag.cs
+		..\..\..\Desktop\Monocle\Util\Cache.cs = ..\..\..\Desktop\Monocle\Util\Cache.cs
+		..\..\..\Desktop\Monocle\Util\Calc.cs = ..\..\..\Desktop\Monocle\Util\Calc.cs
+		..\..\..\Desktop\Monocle\Util\Camera.cs = ..\..\..\Desktop\Monocle\Util\Camera.cs
+		..\..\..\Desktop\Monocle\Util\CheatListener.cs = ..\..\..\Desktop\Monocle\Util\CheatListener.cs
+		..\..\..\Desktop\Monocle\Util\ChoiceSet.cs = ..\..\..\Desktop\Monocle\Util\ChoiceSet.cs
+		..\..\..\Desktop\Monocle\Util\Chooser.cs = ..\..\..\Desktop\Monocle\Util\Chooser.cs
+		..\..\..\Desktop\Monocle\Util\Commands.cs = ..\..\..\Desktop\Monocle\Util\Commands.cs
+		..\..\..\Desktop\Monocle\Util\Draw.cs = ..\..\..\Desktop\Monocle\Util\Draw.cs
+		..\..\..\Desktop\Monocle\Util\Ease.cs = ..\..\..\Desktop\Monocle\Util\Ease.cs
+		..\..\..\Desktop\Monocle\Util\ErrorLog.cs = ..\..\..\Desktop\Monocle\Util\ErrorLog.cs
+		..\..\..\Desktop\Monocle\Util\MethodHandle.cs = ..\..\..\Desktop\Monocle\Util\MethodHandle.cs
+		..\..\..\Desktop\Monocle\Util\PixelFont.cs = ..\..\..\Desktop\Monocle\Util\PixelFont.cs
+		..\..\..\Desktop\Monocle\Util\Pnt.cs = ..\..\..\Desktop\Monocle\Util\Pnt.cs
+		..\..\..\Desktop\Monocle\Util\Pooler.cs = ..\..\..\Desktop\Monocle\Util\Pooler.cs
+		..\..\..\Desktop\Monocle\Util\SaveLoad.cs = ..\..\..\Desktop\Monocle\Util\SaveLoad.cs
+		..\..\..\Desktop\Monocle\Util\SimpleCurve.cs = ..\..\..\Desktop\Monocle\Util\SimpleCurve.cs
+		..\..\..\Desktop\Monocle\Util\SpecEntity.cs = ..\..\..\Desktop\Monocle\Util\SpecEntity.cs
+		..\..\..\Desktop\Monocle\Util\Tiler.cs = ..\..\..\Desktop\Monocle\Util\Tiler.cs
+		..\..\..\Desktop\Monocle\Util\Tracker.cs = ..\..\..\Desktop\Monocle\Util\Tracker.cs
+		..\..\..\Desktop\Monocle\Util\VirtualMap.cs = ..\..\..\Desktop\Monocle\Util\VirtualMap.cs
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB019BDF-8809-4EB1-892C-11F50477762A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB019BDF-8809-4EB1-892C-11F50477762A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB019BDF-8809-4EB1-892C-11F50477762A}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{DB019BDF-8809-4EB1-892C-11F50477762A}.Debug|ARM.Build.0 = Debug|Any CPU
+		{DB019BDF-8809-4EB1-892C-11F50477762A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DB019BDF-8809-4EB1-892C-11F50477762A}.Debug|x64.Build.0 = Debug|Any CPU
+		{DB019BDF-8809-4EB1-892C-11F50477762A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DB019BDF-8809-4EB1-892C-11F50477762A}.Debug|x86.Build.0 = Debug|Any CPU
+		{DB019BDF-8809-4EB1-892C-11F50477762A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB019BDF-8809-4EB1-892C-11F50477762A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB019BDF-8809-4EB1-892C-11F50477762A}.Release|ARM.ActiveCfg = Release|Any CPU
+		{DB019BDF-8809-4EB1-892C-11F50477762A}.Release|ARM.Build.0 = Release|Any CPU
+		{DB019BDF-8809-4EB1-892C-11F50477762A}.Release|x64.ActiveCfg = Release|Any CPU
+		{DB019BDF-8809-4EB1-892C-11F50477762A}.Release|x64.Build.0 = Release|Any CPU
+		{DB019BDF-8809-4EB1-892C-11F50477762A}.Release|x86.ActiveCfg = Release|Any CPU
+		{DB019BDF-8809-4EB1-892C-11F50477762A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -143,7 +173,6 @@ Global
 		{8C7A5766-8D89-4A57-88D9-FA4311D806A2} = {B972C4B1-1456-4335-A1E3-023D76550982}
 		{0463C3C1-C077-4F4C-9609-61DAFD250F50} = {B972C4B1-1456-4335-A1E3-023D76550982}
 		{6B51341A-FA47-4BE1-8780-3E652DFEB45B} = {B972C4B1-1456-4335-A1E3-023D76550982}
-		{D9898665-9629-4D68-A0D2-D67E3D978D64} = {B972C4B1-1456-4335-A1E3-023D76550982}
 		{6174882C-762D-4884-9F79-886A4488D75B} = {759AB088-E9B6-4A24-B3E1-3BA4A0F7983A}
 		{0D683AF8-0724-47B7-9866-EEA7222C5895} = {759AB088-E9B6-4A24-B3E1-3BA4A0F7983A}
 		{EA430724-32A9-4743-A3D3-E4E9200B0360} = {6174882C-762D-4884-9F79-886A4488D75B}
