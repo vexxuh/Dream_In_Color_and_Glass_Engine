@@ -66,17 +66,17 @@ namespace Glass
 
         public override bool Collide(Vector2 point)
         {
-            return Monocle.Collide.CircleToPoint(AbsolutePosition, Radius, point);
+            return Glass.Collide.CircleToPoint(AbsolutePosition, Radius, point);
         }
 
         public override bool Collide(Rectangle rect)
         {
-            return Monocle.Collide.RectToCircle(rect, AbsolutePosition, Radius);
+            return Glass.Collide.RectToCircle(rect, AbsolutePosition, Radius);
         }
 
         public override bool Collide(Vector2 from, Vector2 to)
         {
-            return Monocle.Collide.CircleToLine(AbsolutePosition, Radius, from, to);
+            return Glass.Collide.CircleToLine(AbsolutePosition, Radius, from, to);
         }
 
         public override bool Collide(Circle circle)

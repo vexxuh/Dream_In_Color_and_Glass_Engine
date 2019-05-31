@@ -12,7 +12,7 @@ using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace Monocle
+namespace Glass
 {
     public static class Calc
     {

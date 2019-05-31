@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Monocle
+namespace Glass
 {
     public static class ErrorLog
     {

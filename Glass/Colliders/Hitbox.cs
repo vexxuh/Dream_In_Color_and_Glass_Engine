@@ -125,7 +125,7 @@ namespace Glass
 
         public override bool Collide(Vector2 point)
         {
-            return Monocle.Collide.RectToPoint(AbsoluteLeft, AbsoluteTop, Width, Height, point);
+            return Glass.Collide.RectToPoint(AbsoluteLeft, AbsoluteTop, Width, Height, point);
         }
 
         public override bool Collide(Rectangle rect)
@@ -135,7 +135,7 @@ namespace Glass
 
         public override bool Collide(Vector2 from, Vector2 to)
         {
-            return Monocle.Collide.RectToLine(AbsoluteLeft, AbsoluteTop, Width, Height, from, to);
+            return Glass.Collide.RectToLine(AbsoluteLeft, AbsoluteTop, Width, Height, from, to);
         }
 
         public override bool Collide(Hitbox hitbox)
@@ -150,7 +150,7 @@ namespace Glass
 
         public override bool Collide(Circle circle)
         {
-            return Monocle.Collide.RectToCircle(AbsoluteLeft, AbsoluteTop, Width, Height, circle.AbsolutePosition, circle.Radius);
+            return Glass.Collide.RectToCircle(AbsoluteLeft, AbsoluteTop, Width, Height, circle.AbsolutePosition, circle.Radius);
         }
 
         public override bool Collide(ColliderList list)

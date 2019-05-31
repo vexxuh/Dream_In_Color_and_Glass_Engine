@@ -321,8 +321,8 @@ namespace Glass
 
         public static bool RectToLine(float rX, float rY, float rW, float rH, Vector2 lineFrom, Vector2 lineTo)
         {
-            PointSectors fromSector = Monocle.Collide.GetSector(rX, rY, rW, rH, lineFrom);
-            PointSectors toSector = Monocle.Collide.GetSector(rX, rY, rW, rH, lineTo);
+            PointSectors fromSector = Glass.Collide.GetSector(rX, rY, rW, rH, lineFrom);
+            PointSectors toSector = Glass.Collide.GetSector(rX, rY, rW, rH, lineTo);
 
             if (fromSector == PointSectors.Center || toSector == PointSectors.Center)
                 return true;
@@ -340,7 +340,7 @@ namespace Glass
                 {
                     edgeFrom = new Vector2(rX, rY);
                     edgeTo = new Vector2(rX + rW, rY);
-                    if (Monocle.Collide.LineCheck(edgeFrom, edgeTo, lineFrom, lineTo))
+                    if (Glass.Collide.LineCheck(edgeFrom, edgeTo, lineFrom, lineTo))
                         return true;
                 }
 
@@ -348,7 +348,7 @@ namespace Glass
                 {
                     edgeFrom = new Vector2(rX, rY + rH);
                     edgeTo = new Vector2(rX + rW, rY + rH);
-                    if (Monocle.Collide.LineCheck(edgeFrom, edgeTo, lineFrom, lineTo))
+                    if (Glass.Collide.LineCheck(edgeFrom, edgeTo, lineFrom, lineTo))
                         return true;
                 }
 
@@ -356,7 +356,7 @@ namespace Glass
                 {
                     edgeFrom = new Vector2(rX, rY);
                     edgeTo = new Vector2(rX, rY + rH);
-                    if (Monocle.Collide.LineCheck(edgeFrom, edgeTo, lineFrom, lineTo))
+                    if (Glass.Collide.LineCheck(edgeFrom, edgeTo, lineFrom, lineTo))
                         return true;
                 }
 
@@ -364,7 +364,7 @@ namespace Glass
                 {
                     edgeFrom = new Vector2(rX + rW, rY);
                     edgeTo = new Vector2(rX + rW, rY + rH);
-                    if (Monocle.Collide.LineCheck(edgeFrom, edgeTo, lineFrom, lineTo))
+                    if (Glass.Collide.LineCheck(edgeFrom, edgeTo, lineFrom, lineTo))
                         return true;
                 }
             }

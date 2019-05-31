@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using System;
 
-namespace Monocle
+namespace Glass
 {
     public static class Ease
     {

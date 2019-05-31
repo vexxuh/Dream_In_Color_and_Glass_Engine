@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Xml;
 
-namespace Monocle
+namespace Glass
 {
     public static class Tiler
     {

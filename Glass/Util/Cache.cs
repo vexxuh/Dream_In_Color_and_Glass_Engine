@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Monocle
+namespace Glass
 {
     public static class Cache
     {

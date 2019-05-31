@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 
-namespace Monocle
+namespace Glass
 {
     public class Commands
     {

@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using System;
 
-namespace Monocle
+namespace Glass
 {
     public class Camera
     {

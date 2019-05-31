@@ -7,7 +7,7 @@ using System.Xml;
 using System.Text.RegularExpressions;
 using System.IO;
 
-namespace Monocle
+namespace Glass
 {
     public class PixelFontCharacter
     {

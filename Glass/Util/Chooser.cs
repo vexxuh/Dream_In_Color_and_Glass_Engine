@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Monocle
+namespace Glass
 {
     /// <summary>
     /// Utility class for making weighted random choices from a set.
