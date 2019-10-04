@@ -11,11 +11,12 @@ namespace Dreaming_In_Color
     public class Main : Game
     {
         private SpriteBatch spriteBatch;
-        private GraphicsDevice graphics;
+        private GraphicsDeviceManager graphics;
 
         public Main()
         {
-            
+            graphics = new GraphicsDeviceManager(this);
+            Content.RootDirectory = "Content";
         }
 
 
